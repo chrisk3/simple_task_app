@@ -1,0 +1,54 @@
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.inblock {
+	display: inline-block;
+}
+.margin {
+	margin-top: 10px;
+}
+#wrapper {
+	margin: 25px;
+}
+#add-note-container {
+	border-right: 2px solid gray;
+	display: inline-block;
+	height: 100%;
+	margin: auto;
+	padding-right: 200px;
+	width: 100px;
+}
+#notes-display {
+	display: inline-block;
+	padding: 0 10px;
+	position: absolute;
+		top: 10px;
+		left: 240px;
+	vertical-align: top;
+}
+	.note {
+		border: 2px solid black;
+		float: left;
+		height: 250px;
+		margin: 10px 10px 0 0;
+		overflow: auto;
+		padding: 10px;
+		width: 250px;
+		word-wrap: break-word;
+	}
+		#delete {
+			vertical-align: bottom;
+		}
+		.edit {
+			z-index: 100;
+		}
+		.edit_box {
+			margin-bottom: 5px;
+			word-wrap: break-word;
+		}
